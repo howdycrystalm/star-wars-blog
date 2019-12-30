@@ -1,0 +1,4 @@
+require:
+  - wp-cli/browse-command.php
+@star-wars:
+  ssh: vagrant:star-wars:/var/www/html
