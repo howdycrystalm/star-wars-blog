@@ -20,7 +20,7 @@ This project is designed to reveal different features of WordPress by replicatin
 
 #### 1-foundation
 This is the foundation of your project. It includes a bare-bones install of HTML5Blank and WP Bootstrap Navwalker.
-1. Clone this branch as your project folder.
+1. Clone the `1-foundation` branch as your project folder.
 2. Add the `site.yml` provided to you in Slack in your project folder. Change the email address to match yours.
 3. Add the IP address and hostname to your /etc/hosts file.
 4. In your project folder, cd through the following file path: `/wordpress/wp-content/themes/wordpress-theme-starter-master` When you're in the `wordpress-theme-starter-master` directory, you'll also see a `sass` directory. Run `sass --watch ./sass/style.scss:./style.css` in your terminal or gitbash from within the `wordpress-theme-starter-master` directory. Or in otherwords, one level up from the `sass` directory.
