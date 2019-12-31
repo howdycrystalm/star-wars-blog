@@ -1,4 +1,4 @@
-# Star Wars Blog
+# Star Wars Blog - test desktop
 
 ## Purpose
 - Replicate the WordPress site, starwars.com/news. This is a traditional WordPress blog, featuring posts, tags and categories.
