@@ -1,7 +1,10 @@
 # Star Wars Blog
 
 ## Purpose
-- Replicate the WordPress site, starwars.com/news. This is a traditional WordPress blog, featuring posts, tags and categories.
+- This project is designed to introduce different features of WordPress by replicating the [Star Wars News WordPress site](https://starwars.com/news). You'll be introduced to WordPress Posts, Featured Images, tags, categories, and Advanced Custom Fields.
+
+## Development Process
+- The project is broken into different branches listed in numerical order. Each branch has a list of instructions within the README.md file. 
 
 ## Project Requirements
 - php friendly code editor such as Visual Studio Code or an IDE like PhpStorm
@@ -12,6 +15,7 @@
   - Virtual Box
   - Bootstrap 4
   - Sass
-
-## Development Process
-This project is designed to reveal different features of WordPress by replicating the Star Wars News WordPress site. The project is broken into different branches listed in numerical order. Each branch has a list of instructions within the README.md file.  
+---  
+## Getting Started
+---
+### Project Branches
