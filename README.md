@@ -1,7 +1,7 @@
 # Star Wars Blog
 
 ## Purpose
-- This project is designed to reveal different features of WordPress by replicating the [Star Wars News WordPress site](https://starwars.com/news). You'll be introduced to WordPress Posts, Featured Images, tags, categories, and Advanced Custom Fields.
+- This project is designed to introduce different features of WordPress by replicating the [Star Wars News WordPress site](https://starwars.com/news). You'll be introduced to WordPress Posts, Featured Images, tags, categories, and Advanced Custom Fields.
 
 ## Development Process
 - The project is broken into different branches listed in numerical order. Each branch has a list of instructions within the README.md file. 
