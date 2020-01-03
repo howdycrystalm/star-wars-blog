@@ -53,6 +53,6 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 2. Use your Finder (Mac) or Explorer (Windows) to navigate to your project root folder. Then drill down into wordpress > wp-content > plugins.
 3. Add the unzipped file to your plugins folder.
 4. Next visit star.wars/wp-admin > Plugins and activate Advanced Custom Fields.
-5. You'll see a new Custom Fields icon on your dashboard. Hover over it and select updates.
-6. I'll provide the license key for you to add. This is only for ACF Pro.
+5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
+6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
 7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
