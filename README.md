@@ -17,7 +17,7 @@ The project is broken into different branches listed in numerical order. Each br
   - Sass
  
 ## Getting Started
-The master branch has everything you need to get started, including the *Wordpress Theme Starter* theme, *site.yml*, and *.gitignore files*. You **do not** have to setup VCCW.
+The master branch has everything you need to get started, including the *Wordpress Theme Starter* theme and *.gitignore files*. *I will send you the _site.yml_ and _ACF license_ file seperately as part of branch 2.* You **do not** have to setup VCCW.
 
 1. On GitHub, fork (upper right corner of page) your own copy of this repo.
 2. Select which of **your** GitHub repos or orgs to fork to.
