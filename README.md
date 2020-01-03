@@ -45,7 +45,7 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
-
+***
 #### 2-acf-install
 Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF a whole lot because it's awesome. Let's start with an install.
 
