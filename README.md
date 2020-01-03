@@ -15,7 +15,7 @@ The project is broken into different branches listed in numerical order. Each br
   - Virtual Box
   - Bootstrap 4
   - Sass
-
+ 
 ## Getting Started
 The master branch has everything you need to get started, including the *Wordpress Theme Starter* theme and *.gitignore files*. **I will send you the site.yml and ACF license seperately as part of Project Branch 2.** You **do not** have to setup VCCW.
 
@@ -31,4 +31,19 @@ The master branch has everything you need to get started, including the *Wordpre
 10. Let's test Git and Github, and make sure GitHub is tracking your chages. On your local "development" branch make a change to the README.md. Then git add, git commit, git push. You should see the change in your README.md on GitHub, and the contribution (green square) in your profile. 
 
 ## Project Branches
-(temporarily empty)
+
+#### 1-foundation
+This is the foundation of your project. It includes a bare-bones install of HTML5Blank and WP Bootstrap Navwalker.
+
+1. In your newly cloned project folder add the `site.yml` provided to you via email. Within `site.yml` change the email address to match yours.
+2. Add the IP address and hostname to your /etc/hosts file, `192.168.33.10 star.wars`.
+3. In your project folder, cd through the following file path: `/wordpress/wp-content/themes/wordpress-theme-starter-master`. When you're in the `wordpress-theme-starter-master` directory, you'll also see a `sass` directory. In your terminal or gitbash run `sass --watch ./sass/style.scss:./style.css` from within the `wordpress-theme-starter-master` directory. Or in otherwords, one level up from the `sass` directory.
+4. Open a new terminal window and navigate to your project folder. Run `ls` and you should see "Vagrantfile" within the project folder root. Run `vagrant up` to start Vagrant and Virtual Box.
+5. Next visit your site, `star.wars`, in your browser. You'll see the WordPress default theme, Twenty Twenty. In your browser go to `star.wars/wp-admin`. Login using the password declared in the `site.yml` file. 
+6. In the wp-admin dashboard, go to Appearance > Themes > wordpress-theme-starter-master (It's the one featuring Unsinkable Sam [cat]), and activate theme.
+7. Go back to your site. If you see the HTML5Blank logo you know it's working. 
+8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
+9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
+10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
+
+
