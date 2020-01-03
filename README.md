@@ -45,5 +45,14 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
+***
+#### 2-acf-install
+Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF Pro a whole lot because it's awesome. Let's start with an install.
 
-
+1. I will provide the `advanced-custom-fields-pro` zipped file via email. 
+2. Use your Finder (Mac) or Explorer (Windows) to navigate to your project root folder. Then drill down into wordpress > wp-content > plugins.
+3. Add the unzipped file to your plugins folder.
+4. Next visit star.wars/wp-admin > Plugins and activate Advanced Custom Fields.
+5. You'll see a new Custom Fields icon on your dashboard. Hover over it and select updates.
+6. I'll provide the license key for you to add. This is only for ACF Pro.
+7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
