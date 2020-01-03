@@ -21,7 +21,7 @@ The master branch has everything you need to get started, including the *Wordpre
 
 1. On GitHub, fork (upper right corner of page) your own copy of this repo.
 2. Select which of **your** GitHub repos or orgs to fork to.
-3. Once you've added the fork to your GitHub repo or org, select the green `Clone or Download` button, and copy the https link. 
+3. Once you've added the fork to your GitHub repo or org, select the green `Clone or Download` button, and copy the https link. In other words, clone your fork.
 4. Now `git clone` the fork locally on your computer into your own project folder. The git command should be something like `git clone https://github.com/your-repo-or-org/star-wars-blog.git`.
 5. In your project folder run `git remote -v` to see if the `fetch` and `pull` remotes are the same. They should both share the same "origin" and "from" source, which is your repo or org.
 6. Run `git branch -a` to show all branches that were forked, as well as remote branches. Most likely you'll see the master branch as green, and everything else in red is a remote branch. This is a good thing :)
