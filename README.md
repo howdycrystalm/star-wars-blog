@@ -73,3 +73,11 @@ This portion of the project is all about blog assets (images and copy) and blog 
 ![Post example 1](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png?raw=true "Post example 1")
 
 ![Post example 2](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-2.png?raw=true "Post example 2")
+
+Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's no css yet. But checkit out more closely. Your title, featured image, and excerpt are showing on the Posts page. Click the title, now you're taken to the post. Dope! We'll make it look pretty in the next project branch.
+
+5. git add, git commit, git push to development. **No need to make a new branch**, this next branch already exists. All you gotta do is `git checkout 4-pretty`.
+
+***
+
+#### 4-pretty
