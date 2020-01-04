@@ -69,4 +69,5 @@ This portion of the project is all about blog assets (images and copy) and blog 
 2. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
 3. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
 4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here's a screenshot to help guide you.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+![alt text](https://github.com/gkw-teaching/star-wars-blog/wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png "Logo Title Text 1")
