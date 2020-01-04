@@ -58,5 +58,5 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
 ***
 #### 3-assets
-This portion of the project is all about blog assets (images and copy). I'll provide a Dropbox link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
+This portion of the project is all about blog assets (images and copy). I'll provide a Dropbox link and Google Docs link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
 
