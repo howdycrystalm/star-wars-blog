@@ -81,3 +81,8 @@ Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's 
 ***
 
 #### 4-pretty
+Now that you're on branch "4-pretty" run `sass --watch ./sass/style.scss:./style.css` in your terminal. Pretty spiffy, right? I added style to the Sass folder. Absolutely check it out the code, and use it as a reference if needed.
+
+***
+
+### 5-acf
