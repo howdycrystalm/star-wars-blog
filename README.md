@@ -45,7 +45,6 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
-
 11. In the terminal where Sass watch is running, stop by running `cmd + c` or `ctrl + c`. We won't touch on styles again for a while.
 
 ***
@@ -68,5 +67,6 @@ This portion of the project is all about blog assets (images and copy) and blog 
 
 1. Download assets (images and copy) into assets folder.
 2. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
-
+3. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
+4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here's a screenshot to help guide you.
 
