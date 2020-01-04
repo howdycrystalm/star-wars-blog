@@ -45,7 +45,10 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
+11. In the terminal where Sass watch is running, stop by running `cmd + c` or `ctrl + c`. We won't touch on styles again for a while.
+
 ***
+
 #### 2-acf-install
 Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF Pro a whole lot because it's awesome. Let's start with an install.
 
@@ -56,7 +59,25 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
 6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
 7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
-***
-#### 3-assets
-This portion of the project is all about blog assets (images and copy). I'll provide a Dropbox link and Google Docs link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
 
+***
+
+#### 3-assets
+This portion of the project is all about blog assets (images and copy) and blog posts. I'll provide a Dropbox link and Google Docs link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
+
+1. Download assets (images and copy) into assets folder.
+2. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
+3. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
+4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here are a couple of screenshots to help guide you.
+
+![Post example 1](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png?raw=true "Post example 1")
+
+![Post example 2](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-2.png?raw=true "Post example 2")
+
+Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's no css yet. But checkit out more closely. Your title, featured image, and excerpt are showing on the Posts page. Click the title, now you're taken to the post. Dope! We'll make it look pretty in the next project branch.
+
+5. git add, git commit, git push to development. **No need to make a new branch**, this next branch already exists. All you gotta do is `git checkout 4-pretty`.
+
+***
+
+#### 4-pretty
