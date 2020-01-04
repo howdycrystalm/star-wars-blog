@@ -68,6 +68,8 @@ This portion of the project is all about blog assets (images and copy) and blog 
 1. Download assets (images and copy) into assets folder.
 2. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
 3. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
-4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here's a screenshot to help guide you.
+4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here are a couple of screenshots to help guide you.
 
-![Post example 1](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png?raw=true "Logo Title Text 1")
+![Post example 1](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png?raw=true "Post example 1")
+
+![Post example 2](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-2.png?raw=true "Post example 2")
