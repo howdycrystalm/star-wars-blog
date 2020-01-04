@@ -56,3 +56,7 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
 6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
 7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
+***
+#### 3-assets
+This portion of the project is all about blog assets (images and copy). I'll provide a Dropbox link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
+
