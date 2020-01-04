@@ -45,7 +45,11 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
+
+11. In the terminal where Sass watch is running, stop by running `cmd + c` or `ctrl + c`. We won't touch on styles again for a while.
+
 ***
+
 #### 2-acf-install
 Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF Pro a whole lot because it's awesome. Let's start with an install.
 
@@ -56,7 +60,13 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
 6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
 7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
+
 ***
+
 #### 3-assets
-This portion of the project is all about blog assets (images and copy). I'll provide a Dropbox link and Google Docs link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
+This portion of the project is all about blog assets (images and copy) and blog posts. I'll provide a Dropbox link and Google Docs link for you to download from. I recommend creating a folder specifically for project assets for easy reference.
+
+1. Download assets (images and copy) into assets folder.
+2. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
+
 
