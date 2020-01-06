@@ -107,6 +107,9 @@ html {
   width: 100%;
   height: 188px;
 }
+.home .bottom-line {
+  border-bottom: 0.2rem solid #3273c5;
+}
 .home img {
   width: 100%;
 }
@@ -115,6 +118,23 @@ html {
   background-position: 0 calc(100% - 68%);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.home .title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.home .title a {
+  color: #DDDDDD;
+}
+.home .title a:visited {
+  color: #DDDDDD;
+}
+.home .title a:hover {
+  color: #3273c5;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

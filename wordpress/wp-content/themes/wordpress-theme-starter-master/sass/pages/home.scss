@@ -5,7 +5,7 @@
     margin-bottom: 0px;
   }
   .cats-menu {
-    color: #3273c5;
+    color: $blue;
     text-transform: uppercase;
     font-size: 1.4rem;
     text-align: center;
@@ -31,6 +31,9 @@
     width: 100%;
     height: 188px;
   }
+  .bottom-line {
+    border-bottom: .2rem solid $blue;
+  }
   img {
     //Used blank png to contain size of background-image: url() and add alt text
     width: 100%;
@@ -41,6 +44,24 @@
     background-position: 0 calc(100% - 68%);
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: $font;
+    font-weight: bold;
+    font-size: 16px;
+    a {
+      color: $not-white;
+    }
+    a:visited {
+      color: $not-white;
+    }
+    a:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+
   }
 
 }
