@@ -6,7 +6,15 @@
 		<!-- post thumbnail -->
 		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
-				<?php the_post_thumbnail(array(120,120)); // Declare pixel size you need inside the array ?>
+				<!-- <?php the_post_thumbnail('feat-img'); // Declare pixel size you need inside the array ?> -->
+
+				<!-- <? $thumbnail_id = get_post_thumbnail_id( $post->ID );
+						$alt = get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true);   
+						the_post_thumbnail( 'custom-size', array( 'alt' => $alt ) ); ?> -->
+
+				<div class="placeholder" style="background-image: url(<?php echo the_post_thumbnail_url();?>);" >
+          <img src="<?php echo get_template_directory_uri();?>/img/clear-placeholders/small.png">  
+        </div>
 			</a>
 		<?php endif; ?>
 		<!-- /post thumbnail -->

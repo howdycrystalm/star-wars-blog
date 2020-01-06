@@ -102,5 +102,19 @@ html {
   width: 150px;
   right: 40px;
 }
+.home .feat-img {
+  object-fit: cover;
+  width: 100%;
+  height: 188px;
+}
+.home img {
+  width: 100%;
+}
+.home .placeholder {
+  position: relative;
+  background-position: 0 calc(100% - 68%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=style.css.map */
