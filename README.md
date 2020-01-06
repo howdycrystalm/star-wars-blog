@@ -47,6 +47,6 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
 10. Merge this foundation to your development branch.
 11. In your terminal run `git checkout -b 2-acf-install origin/2-acf-install`.
-11. In GitHub Switch to "2-acf-install".
+12. In GitHub Switch to "2-acf-install".
 
 
