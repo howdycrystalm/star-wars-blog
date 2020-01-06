@@ -81,3 +81,12 @@ Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's 
 ***
 
 #### 4-pretty
+Now that you're on branch "4-pretty" run `sass --watch ./sass/style.scss:./style.css` in your terminal. Pretty spiffy, right? I added style to the Sass folder. Absolutely check it out the code, and use it as a reference if needed. But there's still work to be done.
+
+1. In wp-admin > Posts, delete the "Hello World" post. Say bye bye, we no longer need it.
+2. Locally delete "logo.png" and "logo.svg" from your project "img" folder.
+3. From your assets folder, add the new Star Wars "logo.png" and "logo.svg" to your project "img" folder.
+
+***
+
+### 5-acf
