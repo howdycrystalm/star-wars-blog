@@ -18,23 +18,27 @@
 		<?php endif; ?>
 		<!-- /post thumbnail -->
 
-		<!-- info box -->
-		<div class="info">
+		<div class="padding">
 			<!-- post title -->
 			<h2 class="title">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h2>
 			<!-- /post title -->
-			<?php html5wp_excerpt('html5wp_index'); // Build your custom callback length in functions.php ?>
+			<div class="text">
+				<?php html5wp_excerpt('html5wp_index'); // Build your custom callback length in functions.php ?>
+			</div>
 		</div>
-		<!-- info box -->
-
 	</article>
 	<!-- /article -->
+		<div class='padding py-0'>
 			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+			<span class="post-info byline-author"><?php _e( 'By:', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+
+			<div class="post-info byline-date d-flex">
+				<?php the_category();?>&nbsp// <?php the_time('F j, Y'); ?>
+			</div>
 			<!-- /post details -->
+		</div>
 <?php endwhile; ?>
 
 <?php else: ?>

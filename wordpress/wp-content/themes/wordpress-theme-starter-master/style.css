@@ -4,6 +4,7 @@
  * Main `sass` file. Import here `sass` files
  */
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -119,7 +120,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.home .info {
+.home .padding {
   padding: 1rem;
 }
 .home .title {
@@ -139,9 +140,39 @@ html {
   color: #3273c5;
   text-decoration: none;
 }
-.home p {
+.home .text {
   color: #999999;
   font-size: 15px;
+}
+.home .post-info {
+  color: #999999;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Oswald", serif;
+  letter-spacing: 0.05rem;
+}
+.home .byline-author a {
+  color: #999999;
+}
+.home .byline-author a:visited {
+  color: #999999;
+}
+.home .byline-author a:hover {
+  color: #3273c5;
+  text-decoration: none;
+}
+.home .byline-date a {
+  color: #3273c5;
+}
+.home .byline-date a:visited {
+  color: #3273c5;
+}
+.home .byline-date a:hover {
+  color: #3273c5;
+  text-decoration: none;
+}
+.home ul {
+  padding-inline-start: unset;
 }
 
 /*# sourceMappingURL=style.css.map */
