@@ -72,8 +72,8 @@ This portion of the project is all about blog assets (images and copy) and blog 
 1. Download assets (images and copy) into assets folder.
 2. In your project directory's "img" folder, add the "backgrounds", "logos", "icons", and "clear-placeholders" folders that you just downloaded from Dropbox.
 3. Next take a look at the rest of the folders in your assets folder. Notice that the file names for the images and blog copy correlate. This will help you stay organized when making a post. Speaking of, let's make our first post!
-3. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
-4. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here are a couple of screenshots to help guide you.
+4. Go to your Dashboard in wp-admin. Hover on "Posts" and click "Add new".
+5. We'll start with the 12-19-2019 Google document as our first blog post. The doc has different elements of the blog called out for you. Between the Google doc, the 12-19-2019 Dropbox image folder, and the actual blog post on [Starwars.com/news](https://www.starwars.com/news/star-wars-the-rise-of-skywalker-databank), you should be able to organize the post's images and copy accurately. Here are a couple of screenshots to help guide you.
 
 ![Post example 1](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-1.png?raw=true "Post example 1")
 
@@ -81,9 +81,9 @@ This portion of the project is all about blog assets (images and copy) and blog 
 
 Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's no css yet. But check it out more closely. Your title, featured image, and excerpt are showing on the Posts page, right? I hope so. Click the title, now you're taken to the post. Dope! We'll make it look pretty in the next project branch.
 
-5. git add, git commit, git push to development. 
-6. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
-7. In GitHub switch to the "4-pretty" branch.
+6. git add, git commit, git push to development. 
+7. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
+8. In GitHub switch to the "4-pretty" branch.
 
 ***
 
