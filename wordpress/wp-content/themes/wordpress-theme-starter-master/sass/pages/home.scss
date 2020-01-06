@@ -32,7 +32,7 @@
     height: 188px;
   }
   .bottom-line {
-    border-bottom: .2rem solid $blue;
+    border-bottom: .1rem solid $blue;
   }
   img {
     //Used blank png to contain size of background-image: url() and add alt text
@@ -45,12 +45,15 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .info {
+    padding: 1rem;
+  }
   .title {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: $font;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15px;
     a {
       color: $not-white;
     }
@@ -61,7 +64,9 @@
       color: $blue;
       text-decoration: none;
     }
-
   }
-
+  p {
+    color: #999999;
+    font-size: 15px;
+  }
 }

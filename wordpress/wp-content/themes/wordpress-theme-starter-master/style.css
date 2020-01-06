@@ -108,7 +108,7 @@ html {
   height: 188px;
 }
 .home .bottom-line {
-  border-bottom: 0.2rem solid #3273c5;
+  border-bottom: 0.1rem solid #3273c5;
 }
 .home img {
   width: 100%;
@@ -119,12 +119,15 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.home .info {
+  padding: 1rem;
+}
 .home .title {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: "Roboto", serif;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
 }
 .home .title a {
   color: #DDDDDD;
@@ -135,6 +138,10 @@ html {
 .home .title a:hover {
   color: #3273c5;
   text-decoration: none;
+}
+.home p {
+  color: #999999;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
