@@ -26,9 +26,10 @@ The master branch has everything you need to get started, including the *Wordpre
 5. In your project folder run `git remote -v` to see if the `fetch` and `push` remotes are the same. They should both share the same "origin" source, which is your repo or org.
 6. Run `git branch -a` to show all branches that were forked, as well as remote branches. Most likely you'll see the master branch as green, and everything else in red is a remote branch. This is a good thing :)
 7. Next we want to tell Git to track the remote branches locally. Let's start by tracking the "development" branch. Run `git checkout -b development origin/development`.
-8. Now run `git branch -a` to see if the "development" branch was added locally.
-9. Follow steps 6 & 7 for the remaining branches. Your git command should look like this, `git checkout -b name-of-branch origin/name-of-branch`.
-10. Let's test Git and Github, and make sure GitHub is tracking your chages. On your local "development" branch make a change to the README.md. Then git add, git commit, git push. You should see the change in your README.md on GitHub, and the contribution (green square) in your profile. 
+8. Now run `git branch -a` to see if the "development" branch was added locally. It should be in green.
+9. Let's test Git and Github, and make sure GitHub is tracking your chages. On your local "development" branch make a change to the README.md. Then git add, git commit, git push. You should see the change in your README.md on GitHub, and the contribution (green square) in your profile. 
+10. Now that everything is working, in your terminal run `git checkout -b 1-foundation origin/1-foundation`.
+11. In GitHub you should now have "master", "development", and "1-foundation" branches listed. Switch to "1-foundation". 
 
 ## Project Branches
 
@@ -44,8 +45,12 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 7. Go back to your site. If you see the HTML5Blank logo you know it's working. 
 8. Double check that your `.gitignore` file is the most recent version we've been using. It should be about 40 lines long and includes the `site.yml` file.
 9. `git add .`, `git commit -m "Initial commit"`, `git push`. Follow the instructions provided by Git after `git push`-ing. 
-10. Merge this foundation to your development branch. From your development branch, `git checkout -b 2-acf-install`.
+10. Merge this foundation to your development branch.
+11. In your terminal run `git checkout -b 2-acf-install origin/2-acf-install`.
+12. In GitHub switch to the "2-acf-install" branch.
+
 ***
+
 #### 2-acf-install
 Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF Pro a whole lot because it's awesome. Let's start with an install.
 
@@ -55,4 +60,6 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 4. Next visit star.wars/wp-admin > Plugins and activate Advanced Custom Fields.
 5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
 6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
-7. git add, git commit, git push to development. From your development branch, `git checkout -b 3-assets`.
+7. git add, git commit, git push to development.
+8. In your terminal run `git checkout -b 3-assets origin/3-assets`.
+10. In GitHub switch to the "3-assets" branch.
