@@ -91,12 +91,30 @@ html {
   color: #999999;
   height: 6.5rem;
 }
-.footer ul {
+.footer .social ul {
   width: 200px;
 }
-.footer li {
+.footer .social li {
   list-style-type: none;
   width: 20px;
+}
+.footer .link-bank {
+  position: absolute;
+  color: red;
+  top: 17rem;
+  text-transform: uppercase;
+  font-family: "Roboto", serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  color: #999999;
+  height: 30rem;
+}
+.footer .link-bank ul {
+  width: 100vw;
+  height: 30rem;
+}
+.footer .link-bank li {
+  list-style-type: none;
 }
 
 .home {

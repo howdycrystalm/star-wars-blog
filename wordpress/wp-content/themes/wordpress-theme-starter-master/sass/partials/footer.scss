@@ -24,12 +24,31 @@
     font-size: 1.4rem;
     color: $grey-text;
     height: 6.5rem;
+    ul {
+      width: 200px;
+    }
+    li {
+      list-style-type: none;
+      width: 20px;
+    }
   }
-  ul {
-    width: 200px;
+  .link-bank {
+    position: absolute;
+    color: red;
+    top: 17rem;
+    text-transform: uppercase;
+    font-family: $font;
+    letter-spacing: .05rem;
+    font-size: 1.4rem;
+    color: $grey-text;
+    height: 30rem;
+    ul {
+      width: 100vw;
+      height: 30rem;
+    }
+    li {
+      list-style-type: none;
+    }
   }
-  li {
-    list-style-type: none;
-    width: 20px;
-  }
+
 }
