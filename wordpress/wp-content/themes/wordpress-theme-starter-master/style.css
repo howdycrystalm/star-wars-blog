@@ -215,6 +215,7 @@ html {
 }
 .home ul {
   padding-inline-start: unset;
+  list-style-type: none;
 }
 
 /*# sourceMappingURL=style.css.map */
